@@ -55,7 +55,8 @@ images=glob.glob('images/*')
 s=1
 for image_ in images:
     try:
-        reduce_size(image_)
+        #supprimer # ci-dessous si vous voulez réduire la taille/qualité des images
+        #reduce_size(image_)
 
         if images.index(image_)%2==0:
             x =0
