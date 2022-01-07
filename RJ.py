@@ -22,6 +22,9 @@ percentage=0.161
 img_height=2184
 img_width=4608
 
+
+# If you want tou use cells ids (ex "A1")
+"""
 def increment_char(c):
     return chr(ord(c) + 1) if c != 'Z' else 'AA'
 
@@ -34,7 +37,7 @@ def increment_str(s):
         new_s = lpart[:-1] + increment_char(lpart[-1])
         new_s += 'A' * num_replacements
     return new_s
-
+"""
 def spaced_incr(s,n):
     for i in range(n):
         s=increment_str(s)
